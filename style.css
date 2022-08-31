@@ -1,0 +1,34 @@
+body {
+  background-image: url("./images/summer-cool.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 45%;
+  position: relative;
+  left: 1%;
+  right: 3%;
+  border-radius: 20px;
+  border-color: white;
+  border-style: solid;
+}
+
+.title:hover,
+.title:active {
+  color: black;
+  text-shadow: 1px 1px 10px white;
+}
